@@ -9,6 +9,10 @@
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.bootstrap = factory());
 })(this, (function () { 'use strict';
 
+/**  const buttonText = document.getElementById("button");
+ * function reserveButton() {
+ *   buttonText.style.color = "red";
+  }  **/
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dom/data.js

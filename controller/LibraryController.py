@@ -30,7 +30,7 @@ class LibraryController:
 				LIMIT ? OFFSET ?
 		""", (f"%{title}%", f"%{author}%", limit, limit*page))
 		books = [
-			Book(b[0],b[1],b[2],b[3],b[4])
+			Book(b[0], b[1], b[2], b[3], b[4], b[5])
 			for b in res
 		]
 		return books, count

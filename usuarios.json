@@ -23,6 +23,12 @@
       "email": "ejemplo@gmail.com",
       "password": "123456",
       "id": "S_Faisg"
+    },
+    {
+      "nombres": "Julen Recio",
+      "email": "julenreciotocado@gmail.com",
+      "password": "julen2000",
+      "id": "julenrecio"
     }
   ]
 }
